@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEXUS Calculator</title>
+
+    <link rel="stylesheet" href="css.css">
+    <script src="js.js" defer></script>
+</head>
+<body>
+
+    <!-- Ambient Lights -->
+    <div class="bg-light light-1"></div>
+    <div class="bg-light light-2"></div>
+    <div class="bg-light light-3"></div>
+
+    <!-- Main App -->
+    <main class="calculator">
+
+        <!-- Top Bar -->
+        <div class="top-bar">
+
+            <div class="logo">
+
+                <div class="logo-ring"></div>
+
+                <div class="logo-text">
+                    NEXUS
+                </div>
+
+            </div>
+
+            <div class="status">
+                ONLINE
+            </div>
+
+        </div>
+
+        <!-- Display -->
+        <section class="display-panel">
+
+            <div class="display-glow"></div>
+
+            <input
+                type="text"
+                id="display"
+                readonly
+                placeholder="0"
+            >
+
+        </section>
+
+        <!-- Controls -->
+        <section class="controls">
+
+            <div id="btn-container">
+
+                <!-- Operators -->
+                <button class="operator">/</button>
+                <button class="operator">*</button>
+                <button class="operator">+</button>
+                <button class="operator">-</button>
+
+                <!-- Numbers -->
+                <button class="digit">7</button>
+                <button class="digit">8</button>
+                <button class="digit">9</button>
+                <button class="backSpace">⌫</button>
+
+                <button class="digit">4</button>
+                <button class="digit">5</button>
+                <button class="digit">6</button>
+                <button class="clear">C</button>
+
+                <button class="digit">1</button>
+                <button class="digit">2</button>
+                <button class="digit">3</button>
+                <button class="dot">.</button>
+
+                <button class="digit zero">0</button>
+
+                <button class="equal-sign">=</button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
